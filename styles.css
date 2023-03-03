@@ -1,5 +1,6 @@
 
 /* Your CSS Code here. */
-.data{
+.holder{
 	display:flex;
+	    flex-flow: row wrap;
 }
