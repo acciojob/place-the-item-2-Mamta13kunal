@@ -1,20 +1,23 @@
-
-/* Your CSS Code here. */
-.container{
+.holder{
 	display:flex;
-	 flex-direction: column;
-	 flex: 1;
-	flex-grow: 1;
-flex-shrink: 1;
-flex-basis: auto;
+	flex-wrap:wrap;
+	justify-content:center;
 }
-.data{
-	display:flex;
-	 width: 200px;
-    height: 200px;
-	background-color: dodgerblue;
-    color: white ;
-	align-items: center;
- justify-content: center;
-   
+.three{
+	height:80px;
+	width:80px;
+	background-color:green;
+	font-size:40px;
+}
+.two{
+	height:80px;
+	width:80px;
+	background-color:blue;
+	font-size:40px;
+}
+.one{
+	height:80px;
+	width:80px;
+	background-color:red;
+	font-size:40px;
 }
