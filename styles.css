@@ -1,6 +1,20 @@
 
 /* Your CSS Code here. */
-.holder{
+.container{
 	display:flex;
-	    flex-flow: row wrap;
+	 flex-direction: column;
+	 flex: 1;
+	flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+}
+.data{
+	display:flex;
+	 width: 200px;
+    height: 200px;
+	background-color: dodgerblue;
+    color: white ;
+	align-items: center;
+ justify-content: center;
+   
 }
